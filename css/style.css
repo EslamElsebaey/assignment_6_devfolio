@@ -400,8 +400,8 @@ transform: scale(1.2);
 .info-icon a{
    display: block;
    border: 2px solid var(--main-blueColor);
-   width: 40px;
-   height: 40px;
+   width: 35px;
+   height: 35px;
    border-radius: 50%;
    line-height: 40px;
    display: flex;
@@ -411,11 +411,30 @@ align-items: center;
 .info-title{
    padding-top: 6px;
 }
+.info-title h3{
+   font-size: 14px;
+}
+.info-title p {
+   font-size: 11px;
+}
+
+.portfolio-item-info {
+   padding:   1.7rem 3% 1rem 4% ;
+}
+
+
+@media screen and (min-width:576px) {
+.info-title h3{
+   font-size: 20px;
+}
 .info-title p {
    font-size: 14px;
 }
-.portfolio-item-info {
-   padding:   1.7rem 3% 1rem 4% ;
+.info-icon a{
+   width: 40px;
+   height: 40px;
+  
+}
 }
 
 
